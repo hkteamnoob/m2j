@@ -3,9 +3,9 @@ import requests
 import json
 
 # Telegram bot API token, API ID, API Hash, and ImgBB API key
-TELEGRAM_BOT_TOKEN = "5081418074:AAHMxsaeRFdqor74YTvWFsORgydMRaMk718"
-API_ID = 1814711  # Replace with your API ID from my.telegram.org
-API_HASH = "a14491784f65c3bc76afad00c5f280ba"  # Replace with your API Hash from my.telegram.org
+TELEGRAM_BOT_TOKEN = "5081418074:AAHNxsaeRFdqor74YTvWFsORgydMRaMk718"
+API_ID = 1815711  # Replace with your API ID from my.telegram.org
+API_HASH = "a14491784f65c4bc76afad00c5f280ba"  # Replace with your API Hash from my.telegram.org
 IMGBB_API_KEY = "74157fe6d0b0c78d075681b17bef9564"
 
 # Initialize the bot
