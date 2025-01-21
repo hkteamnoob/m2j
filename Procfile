@@ -1,1 +1,1 @@
-worker: python3 bot_script.py
+web: python3 mbot.py 
