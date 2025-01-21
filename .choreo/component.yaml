@@ -8,7 +8,7 @@ component:
     path: .
   build:
   run:
-    command: "python3 bot_script.py"
+    command: "python3 mbot.py"
 
 # Define an endpoint (optional for Telegram bots using polling)
 endpoints:
