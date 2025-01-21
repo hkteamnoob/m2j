@@ -1,0 +1,18 @@
+schemaVersion: 1.0
+
+# Define the service component
+component:
+  name: telegram-bot-service
+  type: service
+  source:
+    path: .
+  build:
+  run:
+    command: "python3 bot_script.py"
+
+# Define an endpoint (optional for Telegram bots using polling)
+endpoints:
+  - name: telegram-bot-endpoint
+    service:
+      port: 8000
+    type: REST
